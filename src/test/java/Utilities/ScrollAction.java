@@ -15,9 +15,9 @@ public class ScrollAction extends BasePage {
 
     public void scrollElement() {
         driver.findElement(MobileBy.AndroidUIAutomator(
-                "new UiScrollable(new UiSelector().scrollable(true)).scrollToEnd(10000000)"));
+                "new UiScrollable(new UiSelector().scrollable(true)).scrollToEnd(10000)"));
         driver.findElement(MobileBy.AndroidUIAutomator(
-                "new UiScrollable(new UiSelector().scrollable(true)).scrollToBeginning(10000000)"));
+                "new UiScrollable(new UiSelector().scrollable(true)).scrollToBeginning(10000)"));
     }
 
     }

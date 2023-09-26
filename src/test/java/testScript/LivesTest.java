@@ -32,6 +32,9 @@ public class LivesTest extends BaseClass {
         Thread.sleep(3000);
 
         scroll.scrollElement();
+        scroll.scrollElement();
+        scroll.scrollElement();
+        scroll.scrollElement();
        // aca va el scroll
         liap.crehanaSeeMoreLives();
         Thread.sleep(5000);

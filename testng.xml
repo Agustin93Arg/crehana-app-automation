@@ -9,10 +9,10 @@
         <parameter name="url" value="http://127.0.0.1:4723/wd/hub" />
         <parameter name="app" value="C:\\Users\\jugov\\AndroidStudioProjects\\3450.apk" />
         <classes>
-            <!--  <class name="testScript.LoginCrehanaTest"/> -->
-            <!--   <class name="testScript.BlogsTest"/>  -->
-            <!--    <class name="testScript.LivesTest"/> -->
-        <class name="testScript.CoursesTest"/>
+             <class name="testScript.LoginCrehanaTest"/>
+             <class name="testScript.BlogsTest"/>
+             <class name="testScript.LivesTest"/>
+             <class name="testScript.CoursesTest"/>
         </classes>
      </test>
  </suite>

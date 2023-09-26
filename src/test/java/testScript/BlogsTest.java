@@ -30,6 +30,9 @@ public class BlogsTest extends BaseClass {
         Thread.sleep(3000);
 
         scroll.scrollElement();
+        scroll.scrollElement();
+        scroll.scrollElement();
+        scroll.scrollElement();
         bap.crehanaSeeMoreBlogs();
         Thread.sleep(5000);
         bap.blogSectionFeedbackBox();
